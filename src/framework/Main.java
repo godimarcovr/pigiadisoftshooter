@@ -16,8 +16,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] argv) {
-        Tester test = new Tester();
-        Window.game=test;
+        Game test = new Game();
+        Window.game2=test;
         test.start();
     }
 }
